@@ -35,7 +35,7 @@ basket img{
 }
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
-
+/* The attribute selector can target elements with a particular attribute. We can also define exactly which attribute we want to match. */
 input[src ="images/kitty-5.png" ] {
   position: absolute;
   z-index: 3;
